@@ -39,7 +39,7 @@ def after_request(response):
 
 @app.route('/')
 def index():
-    return current_user.is_authenticated
+    return 'abdifatahs anime api'
 
 app.register_blueprint(user)
 app.register_blueprint(anime)
