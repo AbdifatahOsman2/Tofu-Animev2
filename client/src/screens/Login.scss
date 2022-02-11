@@ -1,0 +1,52 @@
+
+
+.login-body{
+    margin: 0px 0px 0px 0px;
+    background-image: url('../Assests/Login-Page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    #otter{
+        margin: 200px 0px 0px 50px;
+        font-size: 200px;
+        color: white;
+        transition: 1000ms;
+        @media screen and (max-width: 480px) {
+            margin: 100px auto;
+            font-size: 140px;
+        }
+    }
+
+    #otter:hover{
+        color: #2196f3;
+    }
+    .notReg a{
+        margin: 0px 600px 0px 0px;
+        font-weight: 200;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        color: white;
+        @media screen and (max-width: 480px) {
+            margin:0px auto;
+            font-size: 18px;
+        }
+    }
+    .notReg a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #1b7ccc;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    .notReg a:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}

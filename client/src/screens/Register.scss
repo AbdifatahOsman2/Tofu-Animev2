@@ -1,0 +1,77 @@
+.register-body{
+    margin: 0px 0px 0px 0px;
+    background-image: url('../Assests/Login-Page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    color: white;
+    height: 100vh;
+    @media screen and (max-width: 480px) {
+        width: 100vw;
+        height: 100vh;
+    }
+    h1{
+        color: #2196f3;
+        margin: 250px 1500px 0px 0px;
+        @media screen and (max-width: 480px) {
+            margin: 55px 0px 0px 0px;
+        }
+        
+    }
+    p{
+        width: 500px;
+        margin: 10px 1400px 0px 0px;
+        @media screen and (max-width: 480px) {
+            margin: 8px;
+            width: fit-content;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 200;
+        margin: 10px 0px 0px 200px;
+        display: inline-block;
+        position: relative;
+        @media screen and (max-width: 480px) {
+            margin: 10px 0px 0px 130px;
+        }
+    }
+    a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #1b7ccc;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    a:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    .luffy{
+        margin: 45px 0px 0px 100px;
+        position: absolute;
+        -webkit-filter: drop-shadow(5px 5px 5px #000000);
+        @media screen and (max-width: 480px) {
+            width: 90px;
+            margin: 5px 0px 0px -35px;
+            position: absolute;
+            -webkit-filter: drop-shadow(2px 2px 3px #000000);
+            visibility: hidden;
+        }   
+    }
+    Button{
+        @media screen and (max-width: 480px) {
+            width: 250px;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+  
