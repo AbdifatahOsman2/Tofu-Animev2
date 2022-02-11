@@ -1,4 +1,4 @@
-import HashLoader from "react-spinners/HashLoader";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import { Route, Switch, Router } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -19,6 +19,8 @@ import "./screens/Home.scss";
 import "./App.scss";
 import "./components/Nav.scss";
 
+
+
 function App() {
   const [user, setUser] = useState("");
   const [loading, setLoading] = useState(false);
@@ -35,11 +37,11 @@ function App() {
     <div className="App">
       {loading ? (
         <div className="load">
-          <HashLoader
+          <ClimbingBoxLoader
             id="loading"
-            color={"#f50057"}
+            color={"#2196f3"}
             loading={loading}
-            size={150}
+            size={60}
           />
         </div>
       ) : (
