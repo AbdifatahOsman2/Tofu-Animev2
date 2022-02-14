@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> A social anime app to share hot takes on your favorite anime
+> A social anime app to share hot takes on your favorite anime https://anime-bloggin.netlify.app/
 ## Wireframes
 
 ### Desktop
