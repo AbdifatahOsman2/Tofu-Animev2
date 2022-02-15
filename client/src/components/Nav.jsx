@@ -169,8 +169,7 @@ const Nav = (props) => {
             </Button>
             <Button
               style={{ color: "white" }}
-              size='large'
-              style={{color:"#f50057"}}
+              style={{color:"#f50057", fontSize:"16px"}}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, display: "block" }}
               href='/register'
