@@ -9,7 +9,9 @@
   </a>
 </p>
 
-> A social anime app to share hot takes on your favorite anime https://anime-bloggin.netlify.app/
+> A social anime app to share hot takes on your favorite anime 
+
+[LIVE WEBSITE](https://tofus-anime.netlify.app/)
 ## Wireframes
 
 ### Desktop
