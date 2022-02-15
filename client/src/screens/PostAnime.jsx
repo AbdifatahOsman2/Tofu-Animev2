@@ -131,7 +131,7 @@ export default function PostAnime(props) {
             }}
             type="submit"
           >
-            Login
+            Post!
           </Button>
         </Box>
       </form>

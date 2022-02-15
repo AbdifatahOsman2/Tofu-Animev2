@@ -30,7 +30,6 @@ def create_anime():
     anime_dict = model_to_dict(anime)
     return jsonify(anime_dict), 201
 
-
 @anime.route('/<int:id>', methods=["PUT"])
 @login_required
 def update_anime(id):
@@ -42,7 +41,6 @@ def update_anime(id):
         .where(Anime.id==id)
         .execute())
     return jsonify(model_to_dict(Anime.get_by_id(id))), 200
-
 
 @anime.route('/<int:id>', methods=["DELETE"])
 @login_required
