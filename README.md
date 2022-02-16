@@ -77,7 +77,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2022 [Abdifatah Osman](https://github.com/AbdifatahOsman2).<br />
 This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_# Anime App
-# Tofu-Animev2
